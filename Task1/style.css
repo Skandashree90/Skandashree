@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+<title>List Website</title>
+<meta charset="utf-8">
+<style>
+*{
+box-sizing:border-box;
+}
+</style>
+<body>
+<div class="wrapper">
+<div class="menu">
+<ul>
+<li><a href="">Task</a></li>
+<li><a href="">Task</a></li>
+</ul>
+</div>
+</div>
+</body>
+</html>
+

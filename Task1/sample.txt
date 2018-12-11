@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>My Website</title>
+<link rel="stylesheet" href="style.css" type="text/css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<header>Shopping website</header>
+<div class="menu">
+<ul>
+<li><a href="#">Home</a><li>
+<li><a href="#">Contact us</a><li>
+<li><a href="#">Catagory</a><li>
+<li><a href="#">About us</a><li>
+</ul>
+<form class="search-form">
+<input type="text" placeholder="Search">
+<button>Search</button>
+</form>
+</div>
+  <div class="row">
+    <div class="col-sm-4" style="background-color:lavender;">.col-sm-4
+<p>lxcmvlsdmldsmlksdldsvklsdmvlkvjmlskdvmdksvmdlkslacjkahdiasgcijbscihsaijs</p></div>
+
+    <div class="col-sm-4" style="background-color:lavenderblush;">.col-sm-4
+<p>lxcmvlsdmldsmlksdldsvklsdmvlkvjmlskdvmdksvmdlkslacjkahdiasgcijbscihsaijslxcmvl
+sdmldsmlksdldsvklsdmvlkvjmlskdvmdksvmdlkslacjkahdiasgcijbscihsaijs</p></div>
+
+    <div class="col-sm-4" style="background-color:lavender;">.col-sm-4</div>
+
+
+</body>
+</html>
+-------------------------------------------------------------------------------------
+
+body
+{
+background-color:skyblue;
+width:100%;
+}
+header
+{
+text-align:center;
+color:red;
+font-size:40px;
+}
+.menu
+{
+width:100%;
+background-color:grey;
+overflow:auto;
+}
+.menu li
+{
+float:left;
+margin:0;
+}
+.menu ul
+{
+margin:0;
+padding:0;
+list-style:none;
+line-height:40px;
+}
+.menu ul li a
+{
+color:white;
+text-decoration:none;
+width:130px;
+display:block;
+text-align:center;
+font-size:19px;
+letter-spacing:0.5px;
+}
+.menu li a:hover
+{
+color:yellow;
+opacity:0.5;
+font-size:25px;
+}
+.search-form
+{
+margin-top:15px;
+float:right;
+margin-right:100px;
+margin-top:150px
+}
+input[type=text]
+{
+padding:7px;
+border:none;
+font-size:16px;
+}
+button
+{
+float:right;
+background:orange;
+color:white;
+border-radius:0 5px 5px 0;
+cursor:pointer;
+position:relative;
+padding:7px;
+border:none;
+font-size:16px;
+}
